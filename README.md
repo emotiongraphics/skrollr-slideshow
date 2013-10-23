@@ -10,7 +10,7 @@ Documentation
 skrollr-slideshow is a simple slide show that uses skrollr, so objects fade in and fade out as you scroll down.
 
 Each slide is an element one level below the element you supply.
-An optional argument is how many pixels each element show stay on for. The default is 500.
+An optional argument is how many pixels each element shown stays on for. The default is 500.
 
 ```js
 skrollr.slideShow.init(skrollrInstance, HTMLelement, numberOfPixelsPerSlide);
@@ -29,7 +29,7 @@ Super easy example. Put some stuff in a div. :
 	
 	<img src="img/photo.jpg">
 	
-	<div>Some text and a image.<img src="img/photo.jpg>"></div>
+	<div>Some text and a image.<img src="img/photo.jpg"></div>
 	
 	<div>
 		Child Elements will all be on the same slide.
